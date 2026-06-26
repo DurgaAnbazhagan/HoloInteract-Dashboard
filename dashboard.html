@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoloInteract Dashboard</title>
+    <link rel ="stylesheet" href ="css/style.css">
+    <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel = "stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+   <div class="dashboard">
+    <div class="sidebar">
+        <h2>HoloInteract</h2>
+        <ul>
+            <a href="dashboard.html"></a>
+            <li> <i class="fa-solid fa-house"></i>Dashboard</li>
+            <a href="dashboard.html"></a>
+            <li> <i class="fa-solid fa-microchip"></i>Devices</li>
+            <a href ="settings.html"></a>
+            <li> <i class="fa-solid fa-gear"></i>Settings</li>
+            <a href="analytics.html"></a>
+            <li> <i class="fa-solid fa-chart-line"></i>Analytics</li>
+            <a href="index.html"></a>
+            <li> <i class="fa-solid fa-right-from-bracket"></i>Logout</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Device-Dashboard</h1>
+        <p> Manage and monitor all HoloInteract devices. </p>
+               <div class="stats">
+
+    <div class="card">
+        <h3>Total Devices</h3>
+        <h2>200</h2>
+    </div>
+
+    <div class="card">
+        <h3>Active</h3>
+        <h2>152</h2>
+    </div>
+
+    <div class="card">
+        <h3>Offline</h3>
+        <h2>48</h2>
+    </div>
+
+    <div class="card">
+        <h3>Campaigns</h3>
+        <h2>15</h2>
+    </div>
+
+</div>
+       <div class="search-container">
+        <input type="text" id="searchInput" placeholder="search devices...">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>Search
+        </button>
+       </div>
+       <table class="device-table">
+        <thead>
+            <tr>
+                <th>Device Name</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Last Seen</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="deviceTable"></tbody>
+         </table>
+    </div>
+   </div>    
+   <script src="js/data.js"></script>
+   <script src="js/dashboard.js"></script>
+</body>
+</html>
