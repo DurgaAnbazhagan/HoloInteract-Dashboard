@@ -1,52 +1,74 @@
 # HoloInteract Dashboard
 
-A responsive IoT Device Management Dashboard developed using HTML, CSS, and JavaScript.
+A responsive IoT Device Management Dashboard developed using HTML, CSS, and JavaScript to monitor and manage smart devices from a centralized platform.
 
-## 📌 Project Overview
+## Project Overview
 
-HoloInteract Dashboard is a frontend prototype that helps business owners monitor IoT devices deployed across multiple locations. It provides device management, campaign analytics, and intelligent feature suggestions for future enhancements.
+HoloInteract Dashboard is a frontend prototype designed for business owners and administrators to monitor IoT devices deployed across multiple locations. The dashboard provides device management, analytics, and AI-powered feature suggestions to improve operational efficiency and customer engagement.
 
-## ✨ Features
+## Features
 
-### Login Page
-- Email and Password Authentication UI
-- Responsive Login Design
+## Authentication
 
-### Device Dashboard
-- Device Name
-- Location
-- Online/Offline Status
-- Last Active Time
-- Search Devices
+* Responsive Login Page
+* Email and Password Authentication UI
+* Logout Functionality
 
-### Analytics Dashboard
-- Total Devices
-- Active Devices
-- Total Interactions
-- Campaign Success Rate
-- Weekly Device Activity Chart
+## Device Management
 
-### AI Powered Features (Bonus)
+* View Device Name and Location
+* Online/Offline Status Monitoring
+* Last Active Time Display
+* Search and Filter Devices
+* Dedicated Devices Page (`devices.html`)
 
-#### AI Device Failure Prediction
-Predicts device failures before they occur using historical performance and health data.
+## Analytics Dashboard
 
-#### Smart Content Recommendation & Engagement Heatmap
-Analyzes customer engagement across locations and recommends the best content for each device.
+* Total Devices Count
+* Active Devices Statistics
+* Total Interactions
+* Campaign Success Rate
+* Weekly Device Activity Visualization
 
-#### Remote Device Health Monitoring
-Monitors battery, network, storage, and overall device health remotely from a centralized dashboard.
+## AI-Powered Features (Conceptual Enhancements)
 
-## 🛠 Technologies Used
+## AI Device Failure Prediction
 
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome
+Predicts device failures using historical performance and health metrics.
 
-## 🚀 Setup Instructions
+## Smart Content Recommendation & Engagement Heatmap
 
-1. Clone the repository
+Analyzes customer interactions and recommends the best content for each location.
+
+## Remote Device Health Monitoring
+
+Tracks battery, network, storage, and overall device health from a centralized dashboard.
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Font Awesome
+* Git & GitHub
+* Visual Studio Code
+
+## Project Structure
+
+HoloInteract-Dashboard/
+
+|__ css/
+|__ js/
+|__ index.html
+|__ dashboard.html
+|__ devices.html
+|__ analytics.html
+|__ settings.html
+|__ README.md
+
+## Setup Instructions
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/DurgaAnbazhagan/HoloInteract-Dashboard.git
@@ -54,27 +76,18 @@ git clone https://github.com/DurgaAnbazhagan/HoloInteract-Dashboard.git
 
 2. Open the project folder.
 
-3. Open `index.html` in your browser.
+3. Launch `index.html` in your browser.
 
-No backend or database is required.
+No backend or database setup is required.
 
-## 📂 Project Structure
+## Project Outcome
 
-```
-HoloInteract-Dashboard/
-|__ css/
-|__ js/
-|__ index.html
-|__ dashboard.html
-|__ analytics.html
-|__ settings.html
-|__ README.md
-```
+The HoloInteract Dashboard demonstrates frontend development skills by creating a responsive and interactive dashboard for managing IoT devices. The project showcases UI design, JavaScript DOM manipulation, device monitoring concepts, and version control using Git and GitHub.
 
-## 👩‍💻 Developer
+## Developer
 
 **Durga Anbazhagan**
-26.06.26
 
-GitHub:
-https://github.com/DurgaAnbazhagan
+GitHub: https://github.com/DurgaAnbazhagan
+
+Date: 27.06.2026
