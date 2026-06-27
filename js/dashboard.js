@@ -22,6 +22,13 @@ table.innerHTML+=row;
 });
 }
 displayDevices(devices);
+document.getElementById("totalDevices").innerText = devices.length;
+
+document.getElementById("activeDevices").innerText =
+    devices.filter(device => device.status === "Online").length;
+
+document.getElementById("offlineDevices").innerText =
+    devices.filter(device => device.status === "Offline").length;
 
 searchInput.addEventListener("keyup",() => {
     const value = searchInput.value.toLowerCase();

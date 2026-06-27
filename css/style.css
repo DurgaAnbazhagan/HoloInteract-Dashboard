@@ -393,3 +393,55 @@
     border-radius:20px;
     font-size:13px;
 }
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.action-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.status-online {
+    color: #16a34a;
+    background: #dcfce7;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.status-offline {
+    color: #dc2626;
+    background: #fee2e2;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#devicesBtn,
+#logoutBtn {
+    cursor: pointer;
+}
