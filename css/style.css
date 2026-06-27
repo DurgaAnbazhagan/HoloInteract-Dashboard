@@ -361,3 +361,72 @@
 .sidebar a:hover{
     color: white;
 }
+/* Future Enhancements */
+.future-section{
+    margin-top: 40px;
+}
+.future-section h2{
+    color:#1e293b;
+    margin-bottom: 20px;
+}
+.future-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.future-card{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    flex: 1;
+    min-width: 250px;
+    transition: 0.03s;
+}
+.future-card:hover{
+    transform: translateY(-5px);
+}
+.future-card h3{
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+.future-card p{
+    color: #64748b;
+    line-height: 1.6;
+}
+/* AI Powered Feature Cards */
+
+.feature-card{
+    background:#ffffff;
+    border-radius:15px;
+    padding:20px;
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    border-left:5px solid #2563eb;
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+.feature-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.feature-card p{
+    color:#64748b;
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+.coming-soon{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
